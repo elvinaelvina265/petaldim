@@ -25,7 +25,6 @@
       body {
         background-color: #faf9f5;
         color: #2d2a29;
-        padding-bottom: 320px;
       }
 
       /* --- Animasi Fade In --- */
@@ -658,6 +657,258 @@
         box-shadow: none !important;
       }
 
+      /* --- Profil Toko --- */
+      .store-profile {
+        background: #ffffff;
+        border-radius: 16px;
+        border: 1px solid #f0ede6;
+        padding: 1.75rem;
+        margin: 0 0 2rem;
+        box-shadow: 0 4px 12px rgba(45, 42, 41, 0.04);
+      }
+
+      .store-profile h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #2d2a29;
+        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .store-profile-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .store-info-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .store-info-icon {
+        width: 36px;
+        height: 36px;
+        background: #fdf0ec;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        flex-shrink: 0;
+      }
+
+      .store-info-text .label {
+        font-size: 12px;
+        color: #9c958f;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.15rem;
+      }
+
+      .store-info-text .value {
+        font-size: 14px;
+        color: #2d2a29;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+
+      /* --- Keunggulan Produk (di dalam product card) --- */
+      .product-extra {
+        margin-bottom: 0.85rem;
+        font-size: 12.5px;
+        color: #7a7571;
+        line-height: 1.6;
+      }
+
+      .product-extra strong {
+        color: #2d2a29;
+        font-weight: 600;
+      }
+
+      /* --- Proses Transaksi --- */
+      .transaction-section {
+        margin: 0 0 2rem;
+      }
+
+      .transaction-section > h3 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #2d2a29;
+        margin-bottom: 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .transaction-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .transaction-card {
+        background: #ffffff;
+        border-radius: 14px;
+        border: 1px solid #f0ede6;
+        padding: 1.25rem;
+      }
+
+      .transaction-card h4 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #e05a47;
+        margin-bottom: 0.6rem;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .transaction-card ol,
+      .transaction-card ul {
+        padding-left: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+
+      .transaction-card li {
+        font-size: 13px;
+        color: #5c5854;
+        line-height: 1.5;
+      }
+
+      .transaction-card p {
+        font-size: 13px;
+        color: #5c5854;
+        line-height: 1.6;
+      }
+
+      /* --- Footer --- */
+      .site-footer {
+        background: #2d2a29;
+        color: #d8d4cc;
+        padding: 2rem 1.5rem 1.5rem;
+        margin-top: 1rem;
+        padding-bottom: calc(1.5rem + 140px);
+      }
+
+      .footer-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .footer-brand h4 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 0.4rem;
+      }
+
+      .footer-brand p {
+        font-size: 12.5px;
+        color: #a8a39b;
+        line-height: 1.6;
+      }
+
+      .footer-contact p {
+        font-size: 13px;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .footer-bottom {
+        text-align: center;
+        font-size: 11.5px;
+        color: #8a8580;
+        margin-top: 1.5rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid #45413f;
+      }
+
+      /* --- Section Wrapper & Divider --- */
+      .page-section {
+        padding: 2.5rem 0;
+      }
+
+      .page-section.alt-bg {
+        background: #f4f1ea;
+        margin: 0 -1.5rem;
+        padding: 2.5rem 1.5rem;
+      }
+
+      .section-heading {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1.25rem;
+      }
+
+      .section-heading .step-num {
+        width: 28px;
+        height: 28px;
+        background: #e05a47;
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+
+      .section-heading h3 {
+        font-size: 17px;
+        font-weight: 700;
+        color: #2d2a29;
+      }
+
+      .section-subtitle {
+        font-size: 13px;
+        color: #9c958f;
+        margin: -0.75rem 0 1.5rem 38px;
+      }
+
+      /* --- Sticky in-page nav --- */
+      .page-nav {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        background: #ffffff;
+        border-bottom: 1px solid #f0ede6;
+        padding: 0.6rem 1rem;
+        overflow-x: auto;
+        position: sticky;
+        top: 0;
+        z-index: 50;
+      }
+
+      .page-nav a {
+        font-size: 12px;
+        font-weight: 600;
+        color: #7a7571;
+        text-decoration: none;
+        padding: 0.4rem 0.9rem;
+        border-radius: 50px;
+        white-space: nowrap;
+        transition: all 0.2s ease;
+      }
+
+      .page-nav a:hover {
+        background: #f5f0ea;
+        color: #e05a47;
+      }
+
       /* --- Responsive --- */
       @media (min-width: 768px) {
         .menu-grid {
@@ -690,8 +941,16 @@
           border-bottom: none;
         }
 
-        body {
-          padding-bottom: 280px;
+        .store-profile-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .transaction-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        .footer-inner {
+          grid-template-columns: 1.2fr 1fr;
         }
       }
 
@@ -804,6 +1063,14 @@
       </div>
     </header>
 
+    <!-- ===== QUICK NAV ===== -->
+    <nav class="page-nav">
+      <a href="#profil-toko">🏠 Profil Toko</a>
+      <a href="#menu-produk">🥟 Menu</a>
+      <a href="#proses-transaksi">🛒 Cara Order</a>
+      <a href="#form-pesan">📋 Pesan Sekarang</a>
+    </nav>
+
     <!-- ===== HERO SECTION (Teks Piramida) ===== -->
     <section class="hero">
       <h2>Cantik di Luar, <span>Lezat di Dalam</span></h2>
@@ -830,6 +1097,62 @@
 
     <!-- ===== MENU ===== -->
     <div class="container">
+      <!-- ===== PROFIL TOKO ===== -->
+      <div class="page-section alt-bg" id="profil-toko">
+        <div class="section-heading">
+          <span class="step-num">1</span>
+          <h3>🏠 Profil Toko</h3>
+        </div>
+        <div class="section-subtitle">Kenali toko kami sebelum memesan</div>
+        <div class="store-profile">
+        <div class="store-profile-grid">
+          <div class="store-info-item">
+            <div class="store-info-icon">📍</div>
+            <div class="store-info-text">
+              <div class="label">Alamat / lokasi pengambilan</div>
+              <!-- GANTI: isi alamat lengkap toko/rumah produksi Anda -->
+              <div class="value">
+                Jl. Riau no 2, gg. Damai No 15c, Pekanbaru, Riau
+              </div>
+            </div>
+          </div>
+          <div class="store-info-item">
+            <div class="store-info-icon">📱</div>
+            <div class="store-info-text">
+              <div class="label">Nomor WhatsApp</div>
+              <!-- GANTI: samakan dengan nomor di bagian script checkout -->
+              <div class="value">+62 882-7982-0998</div>
+            </div>
+          </div>
+          <div class="store-info-item">
+            <div class="store-info-icon">✉️</div>
+            <div class="store-info-text">
+              <div class="label">Email</div>
+              <!-- GANTI: isi dengan email toko Anda -->
+              <div class="value">petaldim.store@gmail.com</div>
+            </div>
+          </div>
+          <div class="store-info-item">
+            <div class="store-info-icon">🕐</div>
+            <div class="store-info-text">
+              <div class="label">Jam operasional</div>
+              <div class="value">
+                Open PO: Kamis & Jumat (09.00–17.00)<br />
+                Pengiriman/pengambilan: Minggu (10.00–16.00)
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- ===== MENU PRODUK ===== -->
+      <div class="page-section" id="menu-produk">
+        <div class="section-heading">
+          <span class="step-num">2</span>
+          <h3>🥟 Pilih Menu & Jumlah Paket</h3>
+        </div>
+        <div class="section-subtitle">Klik tombol + / − untuk menambah pesanan</div>
       <div class="menu-grid">
         <!-- Dim Hijau -->
         <div class="product-card">
@@ -841,9 +1164,14 @@
           <div class="product-info">
             <div class="product-name">Dim Hijau</div>
             <div class="product-desc">
-              Sensasi gurih dengan balutan kulit hijau pandan alami.
+              Menggunakan bahan alami matcha dengan dalam isian daging ayam dan topping wortel diatas.
             </div>
             <div class="product-meta">🌶️ Free Saus Pedas Manis</div>
+            <div class="product-extra">
+              <!-- GANTI: sesuaikan jenis kemasan asli Anda -->
+              <strong>Kemasan:</strong> Dikemas menggunakan kotak mika plastik panjang<br />
+              <strong>Keunggulan:</strong> Menggunakan pewarna alami dari matcha, berisi daging ayam dengan topping parutan wortel, dibuat fresh setiap hari tanpa bahan pengawet.
+            </div>
             <div class="variants">
               <div class="variant-row">
                 <span class="variant-label">Paket 4 pcs</span>
@@ -884,9 +1212,14 @@
           <div class="product-info">
             <div class="product-name">Dim Pink</div>
             <div class="product-desc">
-              Tampilan cantik dengan cita rasa udang fresh yang memanjakan.
+              Menggunakan bahan alami buah naga dengan dalam isian daging ayam dan topping wortel diatas.
             </div>
             <div class="product-meta">🌶️ Free Saus Pedas Manis</div>
+            <div class="product-extra">
+              <!-- GANTI: sesuaikan jenis kemasan asli Anda -->
+              <strong>Kemasan:</strong> Dikemas menggunakan kotak mika plastik panjang.<br />
+              <strong>Keunggulan:</strong> Menggunakan pewarna alami dari buah naga, berisi daging ayam dengan topping parutan wortel, dibuat fresh setiap hari tanpa bahan pengawet.
+            </div>
             <div class="variants">
               <div class="variant-row">
                 <span class="variant-label">Paket 4 pcs</span>
@@ -927,9 +1260,14 @@
           <div class="product-info">
             <div class="product-name">Dim Ungu</div>
             <div class="product-desc">
-              Varian ungu premium dengan isian olahan kepiting lembut.
+              Menggunakan bahan alami kol ungu dengan dalam isian daging ayam dan topping wortel diatas.
             </div>
             <div class="product-meta">🌶️ Free Saus Pedas Manis</div>
+            <div class="product-extra">
+              <!-- GANTI: sesuaikan jenis kemasan asli Anda -->
+              <strong>Kemasan:</strong> Dikemas menggunakan kotak mika plastik panjang.<br />
+              <strong>Keunggulan:</strong> Menggunakan pewarna alami dari kol ungu, berisi daging ayam dengan topping parutan wortel, dibuat fresh setiap hari tanpa bahan pengawet.
+            </div>
             <div class="variants">
               <div class="variant-row">
                 <span class="variant-label">Paket 4 pcs</span>
@@ -961,8 +1299,68 @@
           </div>
         </div>
       </div>
+      </div>
+
+      <!-- ===== PROSES TRANSAKSI ===== -->
+      <div class="page-section alt-bg" id="proses-transaksi">
+        <div class="section-heading">
+          <span class="step-num">3</span>
+          <h3>🛒 Proses Transaksi</h3>
+        </div>
+        <div class="section-subtitle">Cara order, kirim, bayar, dan komplain</div>
+        <div class="transaction-grid">
+          <div class="transaction-card">
+            <h4>📝 Cara Pemesanan</h4>
+            <ol>
+              <li>Pilih varian dim & jumlah paket pada menu di atas</li>
+              <li>Isi data pemesan (nama, WhatsApp, tanggal & jam ambil)</li>
+              <li>Klik tombol "Pesan via WhatsApp" di bagian bawah</li>
+              <li>Konfirmasi pesanan akan dibalas oleh admin via WhatsApp</li>
+            </ol>
+          </div>
+          <div class="transaction-card">
+            <h4>🚚 Pengiriman & Pengambilan</h4>
+            <ul>
+              <li><strong>Pickup:</strong> ambil langsung di lokasi sesuai jam yang dipilih</li>
+              <li><strong>Delivery:</strong> diantar untuk area tertentu (ongkir menyusul, dikonfirmasi via WhatsApp)</li>
+              <li>Pesanan diproses sesuai jadwal Open PO</li>
+            </ul>
+          </div>
+          <div class="transaction-card">
+            <h4>💳 Cara Pembayaran</h4>
+            <ul>
+              <li><strong>Transfer</strong> bank/e-wallet (rekening dikirim setelah konfirmasi pesanan)</li>
+              <li><strong>COD</strong> — bayar tunai saat ambil/terima pesanan</li>
+              <li>Pembayaran transfer dimohon konfirmasi via WhatsApp</li>
+            </ul>
+          </div>
+          <div class="transaction-card">
+            <h4>↩️ Return / Pengembalian</h4>
+            <p>
+              Komplain terkait kualitas produk (rusak, tidak sesuai pesanan)
+              dapat diajukan maksimal 1 jam setelah produk diterima, disertai
+              foto/video sebagai bukti. Penggantian produk atau refund akan
+              diproses setelah diverifikasi oleh admin.
+            </p>
+          </div>
+          <div class="transaction-card">
+            <h4>💬 Komplain Pelanggan</h4>
+            <p>
+              Keluhan dapat disampaikan langsung melalui WhatsApp toko.
+              Admin akan merespons dalam waktu 1×24 jam pada hari kerja
+              (Kamis–Minggu) dan membantu menyelesaikan kendala secepatnya.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <!-- ===== CUSTOMER INFORMATION BOX ===== -->
+      <div class="page-section" id="form-pesan">
+        <div class="section-heading">
+          <span class="step-num">4</span>
+          <h3>📋 Lengkapi Data & Konfirmasi Pesanan</h3>
+        </div>
+        <div class="section-subtitle">Langkah terakhir sebelum pesan via WhatsApp</div>
       <div class="customer-info">
         <h3>📋 Informasi Pemesan</h3>
         <div class="form-row">
@@ -1023,6 +1421,7 @@
           ></textarea>
         </div>
       </div>
+      </div>
     </div>
 
     <!-- ===== ORDER SUMMARY (Sticky) ===== -->
@@ -1051,6 +1450,28 @@
         </button>
       </div>
     </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h4>🌸 PETAL DIM</h4>
+          <p>
+            Dimsum homemade berbentuk bunga dengan varian Dim Hijau, Dim
+            Pink, dan Dim Ungu. Dibuat fresh setiap pesanan dengan bahan
+            alami, tanpa pengawet.
+          </p>
+        </div>
+        <div class="footer-contact">
+          <p>📍 Jl. Riau no 2, gg. Damai No 15c, Pekanbaru, Riau</p>
+          <p>📱 +62 882-7982-0998</p>
+          <p>✉️ petaldim.store@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 PetalDim. Semua hak cipta dilindungi.
+      </div>
+    </footer>
 
     <script>
       // ===== DATA PRODUK =====
